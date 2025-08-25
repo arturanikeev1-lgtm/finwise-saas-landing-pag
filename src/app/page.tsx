@@ -25,7 +25,7 @@ export default function Page() {
   ]);
 
   return (
-    <main className="min-h-screen bg-black p-6 text-white">
+    <main className="min-h-screen bg-black pt-36 px-6 text-white">
       <h1 className="text-2xl font-bold mb-6 text-center">Каталог услуг</h1>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {items.map((item) => (
