@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -26,25 +25,24 @@ export default function Page() {
   ]);
 
   return (
-    <main className="min-h-screen bg-gray-50 p-6">
+    <main className="min-h-screen bg-black p-6 text-white">
       <h1 className="text-2xl font-bold mb-6 text-center">Каталог услуг</h1>
-
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {items.map((item) => (
           <motion.div
             key={item.id}
-            className="bg-white rounded-2xl shadow-md overflow-hidden p-4 flex flex-col"
+            className="bg-gray-900 rounded-2xl shadow-md overflow-hidden p-4 flex flex-col"
             whileHover={{ scale: 1.02 }}
           >
             <img
               src={item.image}
               alt={item.title}
-              className="h-40 w-full object-cover rounded-xl mb-4"
+              className="h-40 w-full object-contain rounded-xl mb-4 bg-white p-2"
             />
             <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
-            <p className="text-gray-600 flex-1">{item.description}</p>
+            <p className="text-gray-300 flex-1">{item.description}</p>
             <button
-              className="mt-4 bg-blue-500 text-white rounded-xl py-2 hover:bg-blue-600 transition"
+              className="mt-4 bg-white text-black rounded-xl py-2 hover:bg-gray-200 transition"
               onClick={() => alert(`Заказ оформлен: ${item.title}`)}
             >
               Заказать
