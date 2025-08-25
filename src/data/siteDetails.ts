@@ -2,11 +2,11 @@ export const siteDetails = {
     siteName: "SELLER PRO",
     siteUrl: 'https://finwise-omega.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'SELLER PRO — лендинг на Next.js и Tailwind CSS',
+        description: 'SELLER PRO помогает бизнесу с современными цифровыми решениями для роста и эффективности.',
     },
-    language: 'en-us',
-    locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
+    language: 'ru',
+    locale: 'ru-RU',
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // или просто "SELLER PRO"
+    googleAnalyticsId: '', // например: G-XXXXXXX
 }
