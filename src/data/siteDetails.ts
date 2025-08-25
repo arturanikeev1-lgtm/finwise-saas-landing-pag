@@ -1,5 +1,5 @@
 export const siteDetails = {
-    siteName: 'Finwise',
+    siteName: "SELLER PRO",
     siteUrl: 'https://finwise-omega.vercel.app/',
     metadata: {
         title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
